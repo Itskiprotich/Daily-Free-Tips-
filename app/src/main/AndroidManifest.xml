@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.keeprawteach.free">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/newlogo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/newlogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Terms.TnCs"></activity>
+        <activity android:name=".Contacts.Contact_Us" />
+        <activity android:name=".Every.EachResult" />
+        <activity android:name=".Every.EachTip" />
+        <activity
+            android:name=".VipTips.VipMain"
+            android:label="@string/title_activity_vip_main"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity android:name=".Livescore.LiveData" />
+        <activity android:name=".Settings.Sub.AppInfor" />
+        <activity android:name=".Settings.Sub.Notification" />
+        <activity android:name=".Settings.Sub.General" />
+        <activity android:name=".Settings.AllSettings" />
+        <activity android:name=".VipTips.Registration" />
+        <activity android:name=".AnimData.AnimData" />
+        <activity android:name=".FirstLaunch">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/applogo" />
+
+        <service
+            android:name=".Message.Mess"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".Message.Receive">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/app_id_test" />
+    </application>
+
+</manifest>

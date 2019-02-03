@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="titles">
+        <item>Free Tips</item>
+        <item>Daily Results</item>
+        <item>Vip Tips</item>
+        <item>Livescores</item>
+        <item>Settings</item>
+        <item />
+        <item>Exit</item>
+    </string-array>
+
+    <array name="icons">
+        <item>@drawable/free</item>
+        <item>@drawable/results</item>
+        <item>@drawable/vip</item>
+        <item>@drawable/live</item>
+        <item>@drawable/cog</item>
+        <item>0</item>
+        <item>@drawable/exit</item>
+    </array>
+
+</resources>

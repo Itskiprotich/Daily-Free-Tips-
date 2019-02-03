@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10.0dip"
+    android:paddingRight="10.0dip">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip"
+        app:cardBackgroundColor="@color/colorPrimary"
+        app:cardCornerRadius="5.0dip">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:collapseColumns="2"
+                android:orientation="vertical">
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Title:"
+                        android:textColor="#ffffffff"
+                        android:textSize="15.0sp" />
+
+                    <TextView
+                        android:id="@+id/title_name"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:text="Japheth"
+                        android:textColor="#ffffffff"
+                        android:textSize="15.0sp" />
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Message:"
+                        android:textColor="#ffffffff"
+                        android:textSize="15.0sp" />
+
+                    <TextView
+                        android:id="@+id/message_name"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:text="Japheth"
+                        android:textColor="#ffffffff"
+                        android:textSize="15.0sp" />
+
+                </TableRow>
+
+
+            </TableLayout>
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

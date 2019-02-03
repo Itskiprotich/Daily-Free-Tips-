@@ -1,0 +1,144 @@
+{
+  "project_info": {
+    "project_number": "483799312884",
+    "firebase_url": "https://quotes-99653.firebaseio.com",
+    "project_id": "quotes-99653",
+    "storage_bucket": "quotes-99653.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:483799312884:android:f6156edf44a10e86",
+        "android_client_info": {
+          "package_name": "com.imejadev.smssender"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "483799312884-27dp2q5npd03i9u9j6lsr2u4f65ffgcl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.imejadev.smssender",
+            "certificate_hash": "be487790a3cceba2b9d85949b762e9f6eb5bc577"
+          }
+        },
+        {
+          "client_id": "483799312884-0eik2rlvj9j6pi53p6b2886jrhu5mou6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQpnsOepZBn1k3pHrAVXiutzGJrDGdzFc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "483799312884-0eik2rlvj9j6pi53p6b2886jrhu5mou6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:483799312884:android:0e26397f6a91be0a",
+        "android_client_info": {
+          "package_name": "com.keeprawteach.brand"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "483799312884-bcufah10ktcavubopqe3pbgbeff6mbpr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.keeprawteach.brand",
+            "certificate_hash": "be487790a3cceba2b9d85949b762e9f6eb5bc577"
+          }
+        },
+        {
+          "client_id": "483799312884-0eik2rlvj9j6pi53p6b2886jrhu5mou6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQpnsOepZBn1k3pHrAVXiutzGJrDGdzFc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "483799312884-0eik2rlvj9j6pi53p6b2886jrhu5mou6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:483799312884:android:a4d276fa7637e75e",
+        "android_client_info": {
+          "package_name": "com.keeprawteach.free"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "483799312884-r2j4s5sgsofngv75ndhfktr843mb9bj0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.keeprawteach.free",
+            "certificate_hash": "be487790a3cceba2b9d85949b762e9f6eb5bc577"
+          }
+        },
+        {
+          "client_id": "483799312884-0eik2rlvj9j6pi53p6b2886jrhu5mou6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQpnsOepZBn1k3pHrAVXiutzGJrDGdzFc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "483799312884-0eik2rlvj9j6pi53p6b2886jrhu5mou6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-8847231226622419~5321274635"
+    }
+  ],
+  "configuration_version": "1"
+}
